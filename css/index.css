@@ -1,0 +1,26 @@
+h1 {
+      
+    /*font-family*/
+    /**/
+    /*q pasa si una fuente no existe*/
+    /*en css tenemos la opcion de poner varios tipos de letra*/
+    /*para que si la primera no existe css busque en la segunda y asi consecutivamente*/
+font-family: Helvetica;
+font-size: 40px;
+        /*Font-weight tambien puede recibir numeros iran de 100 a 900*/
+        /*Importante: Al poner un peso en font-weight no hay unidades de medidas*/
+font-weight: 900;
+text-decoration: underline;
+}
+    /* Nota:
+    700 = bold
+    900 = bolder
+    */
+.parrafo {
+    font-family: "dank mono", monospace;
+    /*font-size sirve para poder manejar el tamaño del texto*/
+
+    font-size: 100px;
+    font-weight: bold;
+
+}
