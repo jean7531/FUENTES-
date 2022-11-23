@@ -22,5 +22,27 @@ text-decoration: underline;
 
     font-size: 100px;
     font-weight: bold;
+    color: #af0;
 
+}
+
+/*Un poco de teoria de colores*/
+
+/*RGB: Red Greeen Blue*/
+/*RGBA: Red Greeen Blue Alpha*/
+/*Alpha: Opacidad de un color 0-1*/
+/*hsl: Hue Saturation Lightness*/
+
+.link-a {
+    font-size: 32px
+    /*font-family: "Dank mono" */
+
+    /* Al poner none es una propiedad estamos invalidandola*/
+
+    /*text-decoration: none; */
+    /*con la propiedad color sirve para poder cambiar el color de un texto */
+    /*Hexadecimal: Es una forma en la cual podemos aplicar un 
+    color basada en 6 digitos alfanumericos */
+    /*color: #af0;*/
+    
 }
