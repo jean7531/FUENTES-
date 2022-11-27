@@ -5,7 +5,7 @@ h1 {
     /*q pasa si una fuente no existe*/
     /*en css tenemos la opcion de poner varios tipos de letra*/
     /*para que si la primera no existe css busque en la segunda y asi consecutivamente*/
-font-family: Helvetica;
+font-family: 'Noto Sans HK';
 font-size: 40px;
         /*Font-weight tambien puede recibir numeros iran de 100 a 900*/
         /*Importante: Al poner un peso en font-weight no hay unidades de medidas*/
