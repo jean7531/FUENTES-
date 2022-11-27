@@ -22,6 +22,7 @@ text-decoration: underline;
 
     font-size: 100px;
     font-weight: bold;
+    font-family: "Dank mono";
     color: #af0;
 
 }
@@ -34,15 +35,54 @@ text-decoration: underline;
 /*hsl: Hue Saturation Lightness*/
 
 .link-a {
-    font-size: 32px
-    /*font-family: "Dank mono" */
-
+    font-size: 32px;
+    font-family: "Dank mono";
     /* Al poner none es una propiedad estamos invalidandola*/
-
-    /*text-decoration: none; */
+    text-decoration: none;
     /*con la propiedad color sirve para poder cambiar el color de un texto */
     /*Hexadecimal: Es una forma en la cual podemos aplicar un 
     color basada en 6 digitos alfanumericos */
-    /*color: #af0;*/
+    color: rgb(41, 51, 24);
     
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    background-color: RGBA(41, 51, 24,0.1);
+}
+
+.span-1 {
+    text-decoration: line-through;
+}
+.span-2 {
+    text-decoration: overline;
+}
+.span-3 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.span-4 {
+    text-decoration: line-through;
+    text-decoration-color: #f01;
+}
+.span-5 {
+    text-decoration: overline;
+    text-decoration-color: #0ba;
+    text-decoration-color: #fff;
+}
+
+    /*lowercase = Minusculas*/
+    /*uppercase = Mayusculas*/
+    /*capitalize = Primera letra del texto en mayuscula*/
+
+.span-6 {
+    color: #f01;
+    text-decoration: underline;
+    background-color: rgb(252, 90, 255);
+    text-decoration-color: #fff;
+    /*Estamos indicando que el texto sea en miniscula*/
+    text-transform: lowercase;
 }
