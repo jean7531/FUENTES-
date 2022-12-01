@@ -86,3 +86,27 @@ ul {
     /*Estamos indicando que el texto sea en miniscula*/
     text-transform: lowercase;
 }
+
+    /*Para que CSS pueda leer una fuente desde un archivo
+    tenemos que usar @font-face esto nos permnite cargar 
+    una fuente externa y darle un nombre para si uso*/
+
+    /*El font-family en este caso puede ser cualquier nombre
+    es una buena practica nombrarla por su nombre oficial*/
+
+    @font-face {
+        /*En este caso font-family es el nombre de la fuente*/
+        font-family: "Caveat";
+        /*src = Es el lugar donde esta alojada la fuente*/
+        src: url("../fonts/Caveat-VariableFont.ttf");
+    }
+
+    @font-face {
+        font-family: "DancingScript";
+        src: url("../fonts/DancingScript-VariableFont.ttf");
+    }
+
+    .title-2 {
+        font-family: "Caveat-VariableFont";
+        src: url("../fonts/Caveat-VariableFont.ttf");
+    }
